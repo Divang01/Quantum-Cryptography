@@ -14,6 +14,8 @@ pairs of orthogonal states are named. The normal polarisation state pairs used
 are either vertical (0°) or horizontal (90°) rectilinear bases, 45° and 135°
 diagonal bases.
 
+![Screenshot from 2021-05-12 23-28-54](https://user-images.githubusercontent.com/63945098/118022631-2c90c800-b37a-11eb-8e6a-68c2899104de.png)
+
 In this protocol, the first step is quantum transmission. Alice produces a random bit (0
 or 1) and then chooses one of her two bases (in this case, rectilinear or
 diagonal) randomly to pass it in. Depending on both the bit value and basis, as
@@ -44,6 +46,9 @@ channel. Alice broadcasts the basis on which each photon has been sent and the
 basis on which Bob has measured each photon. They both discard photon
 measurements (bits) where Bob has used a different basis, which is half on
 average, leaving half the bits as a shared key.
+
+![with_interception](https://user-images.githubusercontent.com/63945098/118022757-56e28580-b37a-11eb-8958-ead20a259657.png)
+
 
 # Scope in Future
 This protocol can be very effective for future reference,we can also use such
